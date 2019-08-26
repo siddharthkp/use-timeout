@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Declarative React hook for setTimeout",
   "main": "dist.js",
-  "types": "index.d.ts"
+  "types": "index.d.ts",
   "scripts": {
     "build": "babel index.js -o dist.js"
   },

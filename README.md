@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://pbs.twimg.com/media/DyKPpD7UwAAVKyH.jpg:large" height="200px"/>
+  <img src="https://pbs.twimg.com/media/DyKPpD7UwAAVKyH.jpg" height="200px"/>
   <br><br>
   <b>Declarative React hook for setTimeout</b>
   <br><br/>

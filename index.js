@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 
 function useTimeout(callback, delay) {
   const savedCallback = useRef()
@@ -18,7 +18,7 @@ function useTimeout(callback, delay) {
         savedCallback.current()
       }
       if (delay !== null) {
-        let id = setTimeout(tick, delay)
+        const id = setTimeout(tick, delay)
         return () => clearTimeout(id)
       }
     },

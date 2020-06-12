@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 
 function useTimeout(callback, delay) {
   const savedCallback = useRef();
-
+  // add a usefuless cmmit
   useEffect(() => {
     savedCallback.current = callback;
   }, [callback]);
